@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "gatsby-simply-recipes",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A simple recipes website created by Gatsby",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -14,9 +14,12 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "babel-plugin-styled-components": "^2.0.2",
     "gatsby": "^4.4.0",
+    "gatsby-plugin-styled-components": "^5.4.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "prettier": "^2.5.1"
